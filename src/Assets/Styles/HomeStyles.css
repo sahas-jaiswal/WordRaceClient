@@ -1,0 +1,73 @@
+.Home {
+  text-align: center;
+}
+.Heading {
+  font-size: 100px;
+  font-family: "Cormorant SC", serif;
+  color: rgb(68, 6, 6);
+  text-shadow: 2px 2px 9px rgba(236, 230, 236, 0.74);
+}
+.headPara {
+  font-size: 30px;
+  font-family: "Cormorant SC", serif;
+}
+.start-btn {
+  border-radius: 500px;
+  padding: 20px;
+  font-size: 30px;
+  background-color: maroon;
+  border: none;
+  color: white;
+  box-shadow: -1px 10px 18px 0px rgba(62, 66, 66, 0.3);
+  cursor: pointer;
+}
+.Login {
+  top: 0px;
+  position: absolute;
+  right: 0px;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 0 black;
+  color: white;
+  cursor: pointer;
+}
+.leader {
+  font-size: 40px;
+  color: white;
+  font-family: "Cormorant SC", serif;
+}
+.user-table {
+  padding: 0px 100px 10px 100px;
+  margin-bottom: 50px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: cornflowerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.snackbar {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1pxrgba (0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  overflow-x: auto;
+}

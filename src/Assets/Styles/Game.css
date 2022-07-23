@@ -1,0 +1,113 @@
+.Game {
+  padding: 0px 0;
+}
+.banner {
+  font-size: 25px;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: -1px 10px 18px 0px rgba(62, 66, 66, 0.3);
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.name-bnr {
+  font-size: 40px;
+  margin: 20px;
+  font-family: "Cormorant SC", serif;
+}
+.logout {
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.game-section {
+  text-align: center;
+  padding: 10px;
+}
+.param-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+.container {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: darksalmon;
+}
+.container div {
+  font-size: 50px;
+  color: white;
+}
+.container span {
+  color: white;
+}
+.wordsInfo {
+  color: white;
+  font-size: 30px;
+}
+.word-wrap {
+  background-color: white;
+  display: flex;
+  overflow-x: scroll;
+  margin: 10px;
+  border-radius: 10px;
+}
+.words {
+  font-size: 30px;
+  padding: 10px;
+}
+.timer-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.timer {
+  font-size: 30px;
+  color: rgb(133, 10, 10);
+  margin: 10px;
+}
+.timer h1 {
+  display: flex;
+  align-items: center;
+}
+.timer-btn {
+  margin: 10px;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+.keyboard-input {
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin: 20px;
+  padding: 10px;
+}
+.keyboard-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.keyboard {
+  width: 640px;
+}
+.lottie {
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+}
+.levelUp {
+  font-size: 100px;
+  font-weight: 800;
+  color: darkmagenta;
+  text-shadow: 0 0 black;
+  font-family: "Permanent Marker", cursive;
+}
